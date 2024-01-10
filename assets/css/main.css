@@ -99,7 +99,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #666;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'GFS Didot';
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -2058,6 +2058,11 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#worth {
+		background-color: #0e1a20;
+		color:rgba(255, 255, 255, 0.842);
+	}
+
 /* Form */
 
 	form {
@@ -2914,12 +2919,8 @@ input, select, textarea {
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
+		background-color:#0e1a20;
 		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -3110,12 +3111,8 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 6em 0 ;
-		background-color: #4686a0;
+		background-color: #0e1a20;
 		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
 		text-align: center;
 	}
 
